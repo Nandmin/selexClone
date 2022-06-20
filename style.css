@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@200&display=swap');
+
+body {
+    background-color: black;
+    color: aliceblue;
+    /* font-family: 'Poppins',Arial, Helvetica, sans-serif; */
+    font-family:  'Inter', sans-serif;
+    overflow: scroll;
+    overflow-y: auto;
+    scrollbar-color: #6969dd #e0e0e0;
+    scrollbar-width: thin;
+}
+
+header .row {
+    font-size: 11px;
+    font-style: normal;
+    padding-left: 50px;
+    font-weight: 900;
+}
+
+/* #navbar {
+    background: black;
+} */
+
+/* .navbar {
+    position: relative;
+    display: inline;
+    text-align: center;
+    color: aliceblue;
+    background: black ;
+    padding: 0;
+    margin: 0;
+} */
+
+.row .nav-link {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 990;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+#headerDate{
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.subLeftSide {
+    display: flex;
+    font-size: large;
+    font-weight: 900;
+    padding-top: 15px;
+}
+
+
+.menus {
+    display: flex;
+    text-transform: uppercase;
+}
+
+.subHeader {
+    padding: 15px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 25%, rgba(58,58,60,1) 100%, rgba(122,127,128,1) 100%);
+}
+
+.rightSide {
+    display: flex;
+    padding-top: 8px;
+    font-size: 11px;
+    
+}
+a:hover {
+    color: lightgray;
+    font-size: 120%;
+}
+
+.tamogatas{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 350px;
+    
+}
+
+.btn {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #topBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+.EUR {
+    font-size: 11px;
+    color:rgb(65, 207, 65);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.USD {
+    font-size: 11px;
+    color:rgb(233, 48, 48);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#searchBox{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(184, 180, 180);
+    width: 700px;
+    margin: 25px;
+    
+}
+
+.sideBar .nav-link{
+    width: 200px;
+    text-align: left;
+    margin-right: -200px;
+}
+.container {
+    background-color: darkgray;
+    min-height: 300px;
+}
+
+.main-content{
+    background-color: lightgray;
+}
+
+footer{
+    max-width: 480px;
+}
+
+.row .footer_links{
+    min-height: 100px;
+    background-color: #e0e0e0;
+}
+
+
+.footer_app_google {
+    /* background-image: url("https://telex.hu/_nuxt/img/google_play_badge.49a1ce3.svg");
+    background-color: crimson;
+    /* position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* align-items: center;  */
+    /* margin: 0 auto; */
+    /* padding: 30px 0 15px; */
+    /* width: 20%; */ 
+    /* box-sizing: border-box; */
+    /* vertical-align: baseline; */
+    
+}
+
+.mobile {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin-bottom: 2.5rem;
+    align-items: center;
+}
+
+.mobile::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.mobile{
+    
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 30px 0 15px; */
+
+
+}

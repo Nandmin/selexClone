@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f32a0357c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Contenter</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    
+    <header>
+     
+        <div class="row">
+            <div class="col-4 pr-5" id="headerDate"></div>
+            <div class="col-4 menus p-0" id="importants">
+              <a class="nav-link" href="#">Legfrisebb</a>
+              <a class="nav-link" href="#">Belföld</a>
+              <a class="nav-link" href="#">Külföld</a>
+              <a class="nav-link" href="#">Koronavírus</a>
+              <a class="nav-link" href="#">Video</a>
+              <a class="nav-link" href="#">Észkombájn</a>
+              <a class="nav-link" href="#">Zacc</a>
+              <a class="nav-link" href="#">English</a>
+            </div>
+            <div class="col-4 rightSide text-right">
+              <div class="col EUR text-right">EUR: 400,00</div>
+              <div class="col USD text-left">USD: 380,12</div>
+            </div>
+        </div>
+        <div class="row subHeader">
+          <div class="col-4 subLeftSide">
+            <div class="col-3 menü">
+              <i class="fa-solid fa-bars pr-1" role="button" onclick="menu()"></i>
+              <label for="Menü" role="button" onclick="menu()">Menü</label>
+            </div>
+            <div class="col-3 search">
+              <i class="fa-solid fa-magnifying-glass pr-1" role="button" onclick="searchBox()"></i>
+              <label for="Kereső" role="button" onclick="searchBox()">Kereső</label>
+            </div>
+          </div>
+          <div class="col-4">
+            <h1 class="text-center">selex</h1>
+          </div>
+          <div class="col-4 tamogatas">
+            <button type="button" class="btn btn-warning">Támogatás</button>
+          </div>
+
+        </div>
+    </header>
+    <section>
+      <div class="row searchBar">
+        <div class="col"></div>
+        <div class="col">
+            <input type="text" id="searchBox" placeholder="Keresés">
+        </div>
+        <div class="col"></div>
+      </div>
+    </section>
+    <div class="row">
+      <div class="sideBar">
+        <a class="nav-link" href="#">Legfrisebb</a>
+        <a class="nav-link" href="#">Legfrissebb</a>
+        <a class="nav-link" href="#">Legfontosabb</a>
+        <a class="nav-link" href="#">Kedvenceink</a>
+        <a class="nav-link" href="#">Közlemények</a>
+        <a class="nav-link" href="#">English</a>
+      </div>
+      <div class="container">
+          <div class="row main-content">
+              <div class="col-3">1</div>
+              <div class="col-3">2</div>
+              <div class="col-3">3</div>
+              <div class="col-3">4</div>
+              <div class="row subContent">
+                
+              </div>
+          </div>
+
+    </div>
+        <footer>
+          
+        </footer>
+        <div class="row footer_links">
+
+        </div>
+          <div class="row footer_mobile">
+                <div class="footer_app_google">
+                </div>
+                <div class="footer_app_huawei"></div>
+                <div class="footer_app_apple"></div>
+
+          </div>
+    </div>
+
+    <div class="row footer_mobile">
+      <div class="footer_app_google">
+      </div>
+      <div class="footer_app_huawei"></div>
+      <div class="footer_app_apple"></div>
+      
+    </div>
+
+    <div class="row">
+      <div class="mobile">
+        <a href="https://play.google.com/store/apps/details?id=hu.app.telex&hl=hu&gl=US" target="_blank">
+          <img src="https://telex.hu/_nuxt/img/google_play_badge.49a1ce3.svg">
+        </a>
+      </div>
+      <div class="mobile">
+        <a href="https://apps.apple.com/us/app/telex/id1554485847" target="_blank">
+          <img src="https://telex.hu/_nuxt/img/app_store_badge.975bb03.svg">
+        </a>
+      </div>
+      <div class="mobile">
+        <a href="https://appgallery.huawei.com/#/app/C104055595?locale=hu_HU&source=appshare&subsource=C104055595" target="_blank">
+          <img src="https://telex.hu/_nuxt/img/huawei_app_gallery_badge.98f951b.svg">
+        </a>
+      </div>
+    </div>
+    
+
+    <!-- Top of the screen -->
+    <button onclick="goToTop()" class="btn btn-outline-danger" id="topBtn" title="Go to top">Elejére</button>
+    
+    <script src="./js/header.js"></script>
+</body>
+</html>
