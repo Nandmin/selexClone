@@ -64,16 +64,37 @@
     </section>
     <div class="row">
       <div class="sideBar">
-        <a class="nav-link" href="#">Legfrisebb</a>
+        <!-- <a class="nav-link" href="#">Legfrisebb</a>
         <a class="nav-link" href="#">Legfrissebb</a>
         <a class="nav-link" href="#">Legfontosabb</a>
         <a class="nav-link" href="#">Kedvenceink</a>
         <a class="nav-link" href="#">Közlemények</a>
-        <a class="nav-link" href="#">English</a>
+        <a class="nav-link" href="#">English</a> -->
+        <div class="card" >
+          <div class="card-header">
+            Menu
+          </div>
+          <!-- style="width: 18rem; -->
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Legfrisebb</li>
+            <li class="list-group-item">Legfrissebb</li>
+            <li class="list-group-item">Legfontosabb</li>
+            <li class="list-group-item">Kedvenceink</li>
+            <li class="list-group-item">Közlemények</li>
+          </ul>
+        </div>
       </div>
       <div class="container">
           <div class="row main-content">
-              <div class="col-3">1</div>
+              <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./img/sitebuilding.jpg" class="card-img-top" alt="picture">
+                  <div class="card-body">
+                    <h4>Label of the content</h4>
+                    <p class="card-text">This is the place of the content Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, excepturi. Ex sint, provident eaque animi minus dignissimos perspiciatis at? Qui, recusandae. Laborum sapiente enim quia rem unde natus dolorum hic.</p>
+                  </div>
+                </div>
+              </div>
               <div class="col-3">2</div>
               <div class="col-3">3</div>
               <div class="col-3">4</div>
@@ -81,12 +102,67 @@
                 
               </div>
           </div>
-
+        </div>
     </div>
         <footer>
-          
+          <div class="row abouts">
+            <div class="first">
+              <ul class="vmi text-center" >
+                <a href="#">About</a>
+                <a href="#">Support</a>
+                <a href="#">Shop</a>
+                <a href="#">Sales</a>
+                <a href="#">NewsLetter</a>
+              </ul>
+              <ul class="text-center">
+                <a href="#">Impresszum</a>
+                <a href="#">Etikai kódex</a>
+                <a href="#">ÁSZF</a>
+                <a href="#">GDPR</a>
+                <a href="#">Cookies</a>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="mobile">
+              <ul>
+                <a href="https://play.google.com/store/apps/details?id=hu.app.telex&hl=hu&gl=US" target="_blank">
+                  <img src="https://telex.hu/_nuxt/img/google_play_badge.49a1ce3.svg">
+                </a>
+              </div>
+              <div class="mobile">
+                <a href="https://apps.apple.com/us/app/telex/id1554485847" target="_blank">
+                  <img src="https://telex.hu/_nuxt/img/app_store_badge.975bb03.svg">
+                </a>
+              </div>
+              <div class="mobile">
+                <a href="https://appgallery.huawei.com/#/app/C104055595?locale=hu_HU&source=appshare&subsource=C104055595" target="_blank">
+                  <img src="https://telex.hu/_nuxt/img/huawei_app_gallery_badge.98f951b.svg">
+                </a>
+              </ul>
+            </div>
+          </div>
+          <div class="row social">
+            <ul>
+              <a href="https://facebook.com">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="https://instagram.com">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://youtube.com">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+              <a href="https://twitter.com">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="https:/telex.hu/rss">
+                <i class="fa-solid fa-rss"></i>
+              </a>
+            </ul>
+          </div>
         </footer>
-        <div class="row footer_links">
+        <!-- <div class="row footer_links">
 
         </div>
           <div class="row footer_mobile">
@@ -96,7 +172,7 @@
                 <div class="footer_app_apple"></div>
 
           </div>
-    </div>
+    </div> -->
 
     <div class="row footer_mobile">
       <div class="footer_app_google">
@@ -106,27 +182,10 @@
       
     </div>
 
-    <div class="row">
-      <div class="mobile">
-        <a href="https://play.google.com/store/apps/details?id=hu.app.telex&hl=hu&gl=US" target="_blank">
-          <img src="https://telex.hu/_nuxt/img/google_play_badge.49a1ce3.svg">
-        </a>
-      </div>
-      <div class="mobile">
-        <a href="https://apps.apple.com/us/app/telex/id1554485847" target="_blank">
-          <img src="https://telex.hu/_nuxt/img/app_store_badge.975bb03.svg">
-        </a>
-      </div>
-      <div class="mobile">
-        <a href="https://appgallery.huawei.com/#/app/C104055595?locale=hu_HU&source=appshare&subsource=C104055595" target="_blank">
-          <img src="https://telex.hu/_nuxt/img/huawei_app_gallery_badge.98f951b.svg">
-        </a>
-      </div>
-    </div>
     
 
     <!-- Top of the screen -->
-    <button onclick="goToTop()" class="btn btn-outline-danger" id="topBtn" title="Go to top">Elejére</button>
+    <button onclick="goToTop()" class="btn btn-outline-danger" id="topBtn" title="Go to top">/\</button>
     
     <script src="./js/header.js"></script>
 </body>
